@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Trabajador</title>
+    <link rel="stylesheet" href="/css/formulario.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Login Trabajador</h2>
+        <img class="imagen" src="img/unnamed.png" alt="">
+        <!-- empieza el formulario -->
+        <form action="registrar_trabajador.php" id="formulario" name="formulario" method="post">
+            <div class="elemento">
+                <label for="usuario">Nombre Usuario</label>
+                <input type="text" id="usuario" name="usuario" placeholder="&#128273; Ingrese su nombre">
+            </div>
+            <div class="elemento">
+                <label for="contraseña">Contraseña Usuario</label>
+                <input type="password" id="contraseña" name="contraseña" placeholder="&#128274;Ingrese su contraseña">
+            </div>
+            <div class="elemento">
+                <a href="registro_trabajador.html">Crear cuenta trabajador</a>
+                <input type="submit" id="benviar" value="Acceder">
+            </div>
+        </form>
+        <!-- termina el formulario -->
+    </div>
+    <!-- cdn validate
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  jquery validate
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    archivo para validar el formulario
+    <script src="/js/form_validaciones.js"></script> -->
+</body>
+</html>

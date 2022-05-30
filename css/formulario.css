@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#34e99e,#34a2e2);
+}
+
+.contenedor{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(37, 228, 123, 0.2);
+    border-radius: 10px;
+}
+
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: rgb(19, 19, 19);
+    text-align: center;
+}
+
+/* barras de texto */
+.contenedor .elemento label {
+color: rgb(0, 0, 0);
+}
+/* mensaje con info erronea */
+.contenedor .elemento label.error {
+    margin: 0px;
+    display: block;
+    color: red;
+    padding: 0px;
+    }
+/* barras para ingresar la info */
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: black;
+    background: transparent;
+    border: none;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+/* barras para ingresar la info con datos erroneos */
+.contenedor .elemento input.error{
+    border: 1px solid red;
+    color: red  ;
+}   
+
+/* el boton */
+.contenedor .elemento input[type="submit"]{
+    background-color: rgb(39, 56, 152);
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+    color: white;
+}
+
+/* la imagen */
+
+.imagen{
+    height: 50%;
+    width: 50%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+/* enlace */
+
+a{
+    margin-left: 26%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
